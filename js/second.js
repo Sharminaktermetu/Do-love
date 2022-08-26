@@ -1,4 +1,8 @@
 document.getElementById('yes-love').addEventListener('click', function(){
+    img = document.createElement("img");
 
-    console.log('yes love you');
+img.setAttribute('src','saif.jpg');
+
+document.getElementById("surprise").appendChild(img);
+    
  })
